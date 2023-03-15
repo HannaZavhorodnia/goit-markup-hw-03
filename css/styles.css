@@ -361,6 +361,7 @@ display: flex;
 gap: 24px;
 flex-wrap: wrap;
 padding-left: 0px;
+padding-bottom: 120px;
 
 }
 
@@ -375,6 +376,7 @@ padding-left: 0px;
     border-bottom: #E7E9FC;
     border-bottom-width:  1px;
     border-bottom-style: solid;
+    max-width: 360px
    
 }
 
