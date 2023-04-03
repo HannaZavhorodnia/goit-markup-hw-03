@@ -11,6 +11,11 @@ font-family: 'Roboto', sans-serif;
     padding: 0px 14px;
 }
 
+img {
+    display: block;
+}
+
+
 :root {
 }
 
@@ -328,6 +333,8 @@ max-width: 264px;
     text-transform: uppercase;
     text-decoration: none;
     color: #F4F4FD;
+    margin-bottom: 16px;
+    
 }
 
 .colortext-footer {
@@ -355,6 +362,10 @@ max-width: 264px;
     gap: 24px;
     margin-top: 96px;
      
+}
+
+img {
+    display: block;
 }
 
 .nav-list-btn {
