@@ -52,7 +52,7 @@ h5 {
     text-transform: uppercase;
     color: #2E2F42;
     text-decoration: none;
-    margin-right: 76px;;
+    margin-right: 76px;
 
  }
 
@@ -77,6 +77,7 @@ h5 {
     border-bottom-style: solid;
     border-bottom-color: #E7E9FC;
     border-bottom-width: 1px;
+    padding: 0 15px 0 15px;
 
     
 }
@@ -86,6 +87,7 @@ h5 {
     align-items: center;
     list-style: none;
     flex-grow: 1;
+    margin-right: auto;
     
 }
 
@@ -109,6 +111,7 @@ color: #404BBF;
     color: #2E2F42;
     text-decoration: none;
     display: flex;
+    padding: 24px 0;
  
 }
 
@@ -220,9 +223,14 @@ color: #434455;
  /* WORK */
 
  .work-container {
-
     
  }
+/* 
+ .work {
+    padding-bottom: 120px;
+ } */
+
+
  .work-title {
 font-size: 36px;
 line-height: 1.1111;
@@ -242,6 +250,7 @@ padding-bottom: 120px;
 justify-content: center;
 padding-left: 156px;
 padding-right: 156px;
+flex-basis: calc((100% - 48px) / 3)
 }
 
 /* TEAM */
@@ -310,6 +319,7 @@ color: #434455;
 background-color: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
+
 }
 
 .footer-uptitle {
@@ -334,6 +344,7 @@ max-width: 264px;
     text-decoration: none;
     color: #F4F4FD;
     margin-bottom: 16px;
+    display: inline-block;
     
 }
 
@@ -348,6 +359,7 @@ max-width: 264px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: inline-block;
     
 }
 
