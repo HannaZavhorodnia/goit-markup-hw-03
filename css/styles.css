@@ -191,7 +191,7 @@ cursor: pointer;
 list-style-type: none;
 display: flex;
 gap: 24px;
-flex-basis: calc(( 100% - 72px )/ 4);
+/* flex-basis: calc(( 100% - 72px )/ 4); */
 /* padding-right: 24px; */
 /* gap: 24px; */
 /* flex-wrap: wrap; */
@@ -252,11 +252,11 @@ padding-bottom: 120px;
 justify-content: center;
 padding-left: 156px;
 padding-right: 156px;
-/* flex-basis: calc((100% - 48px) / 3) */
+
 }
 
 .work-list-item {
-    flex-basis: calc((100% - 48px) / 3)   
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 /* TEAM */
