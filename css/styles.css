@@ -72,20 +72,7 @@ h5 {
     gap: 40px;
     padding: 0 15px 0 15px;
 
-
 }
-
-/* .header-container {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    border-bottom-style: solid;
-    border-bottom-color: #E7E9FC;
-    border-bottom-width: 1px;
-    padding: 0 15px 0 15px;
-
-    
-} */
 
 .header-nav {
     display: flex;
@@ -387,7 +374,9 @@ max-width: 264px;
 
 
 /*----------------------------------------PORTFOLIO--------------------------------------------- */
-
+.container-portfolio {
+    padding: 96px 120px;
+}
 .list {
     list-style: none;
     text-decoration: none;
