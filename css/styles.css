@@ -19,7 +19,7 @@ img {
 :root {
 }
 
-.p,
+p,
 h1, 
 h2, 
 h3, 
@@ -28,7 +28,7 @@ h5 {
     margin-bottom: 0;
 }
 
-.ul {
+ul {
     margin: 0;
     padding: 0;
 }
@@ -67,11 +67,14 @@ h5 {
     border-bottom-style: solid;
     border-bottom-color: #E7E9FC;
     border-bottom-width: 1px;
-    display: flex;
-    align-items: center;
     gap: 40px;
     padding: 0 15px 0 15px;
 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .header-nav {
@@ -381,9 +384,9 @@ max-width: 264px;
     list-style: none;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     gap: 24px;
-    margin-top: 96px;
+    margin-bottom: 72px;
      
 }
 
