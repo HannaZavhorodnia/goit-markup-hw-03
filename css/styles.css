@@ -443,15 +443,6 @@ row-gap: 48px;
 
 .portfolio-item {
     flex-basis: calc(( 100% - 48px ) / 3);
-    border-right: #E7E9FC;
-    border-right-width:  1px;
-    border-right-style: solid;
-    border-left: #E7E9FC;
-    border-left-width:  1px;
-    border-left-style: solid;
-    border-bottom: #E7E9FC;
-    border-bottom-width:  1px;
-    border-bottom-style: solid;
     max-width: 360px;
 
    
