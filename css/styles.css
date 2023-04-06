@@ -433,11 +433,11 @@ border: 1px solid transparent;
 .portfolio-list {
 list-style-type: none;
 display: flex;
-/* gap: 24px; */
+gap: 24px;
 flex-wrap: wrap;
 padding-left: 0px;
 padding-bottom: 120px;
-row-gap: 48px;
+
 
 }
 
