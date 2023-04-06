@@ -387,6 +387,7 @@ max-width: 264px;
     justify-content: center; 
     gap: 24px;
     margin-bottom: 72px;
+    row-gap: 48px; 
      
 }
 
@@ -417,6 +418,7 @@ border-radius: 4px;
 .nav-list-btn:focus {
 color: #FFFFFF;
 background-color:#404BBF;
+border: 1px solid transparent; 
 
 }
 
