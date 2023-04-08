@@ -255,7 +255,7 @@ padding-right: 156px;
 
 }
 
-.work-list-item {
+.work-item {
     flex-basis: calc((100% - 48px) / 3);
 }
 
