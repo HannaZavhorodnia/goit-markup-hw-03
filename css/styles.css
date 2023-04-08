@@ -378,7 +378,8 @@ max-width: 264px;
 
 /*----------------------------------------PORTFOLIO--------------------------------------------- */
 .container-portfolio {
-    padding: 96px 120px;
+    padding: 96px 0 120px;
+ 
 }
 .list {
     list-style: none;
