@@ -5,7 +5,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    /* width: 100%; */
     width: 1158px;
     margin: 0 auto;
     padding: 0px 15px;
@@ -224,10 +223,6 @@ color: #434455;
 
  /* WORK */
 
- .work-container {
-    
- }
-
  .work-title {
 font-size: 36px;
 line-height: 1.1111;
@@ -244,14 +239,11 @@ list-style-type: none;
 display: flex;
 gap: 24px;
 justify-content: center;
-/* padding-bottom: 120px; */
-/* padding-left: 156px;
-padding-right: 156px; */
 
 }
 
 .work-item {
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 /* TEAM */
