@@ -128,7 +128,7 @@ letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
 list-style: none;
-margin-right: 40px;
+
 }
 
 .contacts-link:hover,
@@ -281,7 +281,7 @@ border-style: solid;
 border-radius: 0px 0px 4px 4px;
 }
 .photo {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     display: block;
     max-width: 100%;
      
@@ -394,7 +394,6 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 min-width: 69px;
 padding: 12px 24px;
-margin-bottom: 72px;
 background: #F4F4FD;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
@@ -423,7 +422,6 @@ display: flex;
 gap: 24px;
 flex-wrap: wrap;
 padding-left: 0px;
-padding-bottom: 120px;
 row-gap: 48px;
 
 }
