@@ -164,7 +164,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
-/* align-items: center; */
 display: block;
 letter-spacing: 0.04em;
 color: #FFFFFF;
@@ -190,10 +189,6 @@ cursor: pointer;
 list-style-type: none;
 display: flex;
 gap: 24px;
-/* flex-basis: calc(( 100% - 72px )/ 4); */
-/* padding-right: 24px; */
-/* gap: 24px; */
-/* flex-wrap: wrap; */
 
 }
 
@@ -246,7 +241,8 @@ justify-content: center;
 }
 
 .work-item {
-    width: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
+
 }
 
 /* TEAM */
@@ -283,19 +279,19 @@ border-width:  1px;
 border-style: solid;
 border-radius: 0px 0px 4px 4px;
 }
+
 .photo {
-    /* margin-bottom: 32px; */
-    display: block;
-    max-width: 100%;
+display: block;
+max-width: 100%;
      
 }
 
 .team-member {
-    padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
-
+padding: 32px 16px;
+border-radius: 0px 0px 4px 4px;
 
 }
+
 .member {
 font-weight: 500;
 font-size: 20px;
@@ -430,7 +426,6 @@ row-gap: 48px;
 }
 
 .portfolio-item {
-    /* max-width: 360px; */
     width: calc((100% - 48px) / 3); 
    
 }
