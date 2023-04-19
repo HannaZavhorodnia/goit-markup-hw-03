@@ -34,7 +34,7 @@ ul {
 
 
 
-.hero, .feature, .team, .work {
+.hero, .feature, .team, {
     padding: 120px 0;
 }
 
@@ -222,6 +222,9 @@ color: #434455;
  }
 
  /* WORK */
+.work {
+    padding-bottom: 120px;
+}
 
  .work-title {
 font-size: 36px;
